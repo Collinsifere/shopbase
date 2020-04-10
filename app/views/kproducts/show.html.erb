@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @kproduct.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @kproduct.description %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @kproduct.image %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @kproduct.size %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @kproduct.price %>
+</p>
+
+<%= link_to 'Edit', edit_kproduct_path(@kproduct) %> |
+<%= link_to 'Back', kproducts_path %>

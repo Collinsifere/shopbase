@@ -1,6 +1,17 @@
 Rails.application.routes.draw do
-  root 'home#index'
+  resources :kproducts
+  resources :names
+  get 'cards/show'
+  get 'shops/index'
+  get 'shops/show'
+  resources :products
+  resources :shops, only:[:index, :show]
   
+  
+  
+  
+  
+  root 'products#index'
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
   get 'signup', to: 'users#new', as: 'signup'

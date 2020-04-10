@@ -1,0 +1,2 @@
+class Kproduct < ApplicationRecord
+end

@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# shopbase
-A simple ecommerce application to show my ROR skills
-=======
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -26,4 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
->>>>>>> creatring-login
+# shopbase
+A simple ecommerce application to show my ROR skills
