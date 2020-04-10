@@ -2,14 +2,14 @@
 
 one:
   name: MyString
-  description: MyString
   image: MyString
   size: MyString
-  price: 9.99
+  description: MyString
+  price: 1
 
 two:
   name: MyString
-  description: MyString
   image: MyString
   size: MyString
-  price: 9.99
+  description: MyString
+  price: 1
