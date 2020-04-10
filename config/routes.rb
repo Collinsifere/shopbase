@@ -1,6 +1,13 @@
 Rails.application.routes.draw do
-  root 'home#index'
-  
+  get 'cards/show'
+  get 'shops/index'
+  get 'shops/show'
+  resources :products do
+    collection { post:import }
+  end
+  resources :shops, only:[:index, :show]
+
+  root 'sessions#new'
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
   get 'signup', to: 'users#new', as: 'signup'

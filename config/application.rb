@@ -8,6 +8,7 @@ Bundler.require(*Rails.groups)
 
 module Shopbase
   class Application < Rails::Application
+    require 'csv'
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
 
